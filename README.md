@@ -31,16 +31,16 @@ Casuals is a subcategory of Trousers, which by itself is a subcategory of Men's 
             |- Trousers                    |- Footwear
                |- Casuals (30% off)
             |- Jeans   (20% off)
- 
+
 Each product belongs to a brand which by themselves are running discounts. Below is a table that lists them:
 Brands Discounts:
-================
-Wrangler        10%
-Arrow           20%
-Vero Moda       60%
-UCB             None
-Adidas          5%
-Provogue        20%
+
+	Wrangler        10%
+	Arrow           20%
+	Vero Moda       60%
+	UCB             None
+	Adidas          5%
+	Provogue        20%
  
 This way, a product can have three types of discounts applicable:
 1. Discount on the brand
