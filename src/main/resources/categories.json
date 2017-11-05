@@ -1,0 +1,53 @@
+{
+  "id": 0,
+  "name": "root",
+  "discount": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men's wear",
+      "discount": 0,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Shirts",
+          "discount": 0
+        },
+        {
+          "id": 4,
+          "name": "Trousers",
+          "discount": 0,
+          "categories": [
+            {
+              "id": 8,
+              "name": "Casuals",
+              "discount": 30
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Jeans",
+          "discount": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Women's wear",
+      "discount": 50,
+      "categories": [
+        {
+          "id": 6,
+          "name": "Dresses",
+          "discount": 0
+        },
+        {
+          "id": 7,
+          "name": "Footwear",
+          "discount": 0
+        }
+      ]
+    }
+  ]
+}
