@@ -57,17 +57,17 @@ The shop inventory is given in CSV form as standard input and also customer opti
  
 Sample Input file:
  
-5
-1, Arrow,Shirts,800
-2, Vero Moda,Dresses,1400
-3, Provogue,Footwear,1800
-4, Wrangler,Jeans,2200
-5, UCB,Shirts,1500
- 
-2
-1,2,3,4
-1,5
- 
-Expected output:
-3860 
-2140
+	5
+	1, Arrow,Shirts,800
+	2, Vero Moda,Dresses,1400
+	3, Provogue,Footwear,1800
+	4, Wrangler,Jeans,2200
+	5, UCB,Shirts,1500
+	 
+	2
+	1,2,3,4
+	1,5
+	 
+	Expected output:
+	3860 
+	2140
