@@ -56,6 +56,7 @@ So, the discount that is applied 20%.
 The shop inventory is given in CSV form as standard input and also customer options as comma separated Id's after a newline. In the example below, 1,2,3,4 are the customer choices.
  
 Sample Input file:
+
 	5
 	1, Arrow,Shirts,800
 	2, Vero Moda,Dresses,1400
@@ -68,5 +69,6 @@ Sample Input file:
 	1,5
 
 Expected output:
+
 	3860 
 	2140
