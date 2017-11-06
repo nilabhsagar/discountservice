@@ -1,22 +1,23 @@
 # Discount Service
 
-###1. Technologies used
+### 1. Technologies used
 
 - Maven 3.0
 - Java 1.8
 
-###2. To Run this project locally
+### 2. To Run this project locally
 
-- $ git clone https://github.com/nilabhsagar/discountservice
-- $ mvn install
-*goto target folder*
-- $ java -jar discountapp.jar /home/sagar/input.txt
-*Note: in the above /home/sagar/input.txt is the path to sample input file*
+1. $ git clone https://github.com/nilabhsagar/discountservice
+2. $ cd /home/sagar/discountservice
+3. $ mvn install
+4. $ cd target
+5. $ java -jar discountapp.jar /home/sagar/input.txt
+- *Note: in the above /home/sagar/input.txt is the path to sample input file*
 
-###3. To import this project into Eclipse IDE
+### 3. To import this project into Eclipse IDE
 
 - $ mvn eclipse:eclipse
-Import into Eclipse via existing projects into workspace option.
+- Import into Eclipse via existing projects into workspace option.
 Done.
 
 
