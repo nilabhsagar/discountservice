@@ -19,7 +19,7 @@ Import into Eclipse via existing projects into workspace option.
 Done.
 
 
-# About the program
+# About the Problem
 
 A small system that calculates the discounts on all the applicable items a customer has bought.
  
@@ -72,3 +72,9 @@ Expected output:
 
 	3860 
 	2140
+	
+# About the Design
+
+Its a basic code where the initial category and brand details are loaded using Json document, which is added in the resource folder. These can certainly be extended to database.
+
+All the responsibilities like loading categories, brands, building the discount path upfront as one time activity, calculating the discount for a given cart items are kept in a separate methods. These methods can easily be extended to separate class or to a separate service layer when the need arises.
